@@ -211,9 +211,16 @@ def names(path):
     return City
 
 # Inicia la ejecucion
-print("Nodo de Salida")
+print()
+print("¡Bienvenido a Ticket to Ride!")
+print()
+print("Siguiendo el código númerico")
+for q in Cities:
+    print(q, "->", Cities[q])
+print()
+print("Ingrese el número de su punto de partida:")
 Salida = input()
-print("Nodo de Llegada")
+print("Ingrese el número de su destino:")
 Llegada = input()
 
 if Salida > Llegada:
